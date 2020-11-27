@@ -1,0 +1,3 @@
+/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles/edit_cache.dir
+/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles/cChat2.dir

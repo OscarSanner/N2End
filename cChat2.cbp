@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cChat2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/osann/Documents/GitProjects/cChat2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/osann/Documents/GitProjects/cChat2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/osann/Documents/GitProjects/cChat2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cChat2">
+				<Option output="/mnt/c/Users/osann/Documents/GitProjects/cChat2/cChat2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/osann/Documents/GitProjects/cChat2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 cChat2"/>
+					<CompileFile command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cChat2/fast">
+				<Option output="/mnt/c/Users/osann/Documents/GitProjects/cChat2/cChat2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/osann/Documents/GitProjects/cChat2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 cChat2/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/mnt/c/Users/osann/Documents/GitProjects/cChat2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/osann/Documents/GitProjects/cChat2/CCWindow.cpp">
+			<Option target="cChat2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/osann/Documents/GitProjects/cChat2/CCWindow.h">
+			<Option target="cChat2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/osann/Documents/GitProjects/cChat2/ChatRoom.cpp">
+			<Option target="cChat2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/osann/Documents/GitProjects/cChat2/ChatRoom.h">
+			<Option target="cChat2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/osann/Documents/GitProjects/cChat2/WindowFiller.cpp">
+			<Option target="cChat2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/osann/Documents/GitProjects/cChat2/WindowFiller.h">
+			<Option target="cChat2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/osann/Documents/GitProjects/cChat2/connect.cpp">
+			<Option target="cChat2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/osann/Documents/GitProjects/cChat2/connect.h">
+			<Option target="cChat2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/osann/Documents/GitProjects/cChat2/fileParse.cpp">
+			<Option target="cChat2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/osann/Documents/GitProjects/cChat2/fileParse.h">
+			<Option target="cChat2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/osann/Documents/GitProjects/cChat2/initWindows.cpp">
+			<Option target="cChat2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/osann/Documents/GitProjects/cChat2/initWindows.h">
+			<Option target="cChat2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/osann/Documents/GitProjects/cChat2/main.cpp">
+			<Option target="cChat2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
