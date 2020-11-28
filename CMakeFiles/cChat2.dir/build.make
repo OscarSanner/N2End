@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/osann/Documents/GitProjects/cChat2
+CMAKE_SOURCE_DIR = /mnt/c/Users/Oscar/Documents/GitProjects/N2End
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/osann/Documents/GitProjects/cChat2
+CMAKE_BINARY_DIR = /mnt/c/Users/Oscar/Documents/GitProjects/N2End
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cChat2.dir/depend.make
@@ -59,94 +59,94 @@ include CMakeFiles/cChat2.dir/flags.make
 
 CMakeFiles/cChat2.dir/main.cpp.o: CMakeFiles/cChat2.dir/flags.make
 CMakeFiles/cChat2.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cChat2.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cChat2.dir/main.cpp.o -c /mnt/c/Users/osann/Documents/GitProjects/cChat2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cChat2.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cChat2.dir/main.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/main.cpp
 
 CMakeFiles/cChat2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cChat2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/osann/Documents/GitProjects/cChat2/main.cpp > CMakeFiles/cChat2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/main.cpp > CMakeFiles/cChat2.dir/main.cpp.i
 
 CMakeFiles/cChat2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cChat2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/osann/Documents/GitProjects/cChat2/main.cpp -o CMakeFiles/cChat2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/main.cpp -o CMakeFiles/cChat2.dir/main.cpp.s
 
 CMakeFiles/cChat2.dir/initWindows.cpp.o: CMakeFiles/cChat2.dir/flags.make
 CMakeFiles/cChat2.dir/initWindows.cpp.o: initWindows.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cChat2.dir/initWindows.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cChat2.dir/initWindows.cpp.o -c /mnt/c/Users/osann/Documents/GitProjects/cChat2/initWindows.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cChat2.dir/initWindows.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cChat2.dir/initWindows.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/initWindows.cpp
 
 CMakeFiles/cChat2.dir/initWindows.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cChat2.dir/initWindows.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/osann/Documents/GitProjects/cChat2/initWindows.cpp > CMakeFiles/cChat2.dir/initWindows.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/initWindows.cpp > CMakeFiles/cChat2.dir/initWindows.cpp.i
 
 CMakeFiles/cChat2.dir/initWindows.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cChat2.dir/initWindows.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/osann/Documents/GitProjects/cChat2/initWindows.cpp -o CMakeFiles/cChat2.dir/initWindows.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/initWindows.cpp -o CMakeFiles/cChat2.dir/initWindows.cpp.s
 
 CMakeFiles/cChat2.dir/CCWindow.cpp.o: CMakeFiles/cChat2.dir/flags.make
 CMakeFiles/cChat2.dir/CCWindow.cpp.o: CCWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cChat2.dir/CCWindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cChat2.dir/CCWindow.cpp.o -c /mnt/c/Users/osann/Documents/GitProjects/cChat2/CCWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cChat2.dir/CCWindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cChat2.dir/CCWindow.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/CCWindow.cpp
 
 CMakeFiles/cChat2.dir/CCWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cChat2.dir/CCWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/osann/Documents/GitProjects/cChat2/CCWindow.cpp > CMakeFiles/cChat2.dir/CCWindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/CCWindow.cpp > CMakeFiles/cChat2.dir/CCWindow.cpp.i
 
 CMakeFiles/cChat2.dir/CCWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cChat2.dir/CCWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/osann/Documents/GitProjects/cChat2/CCWindow.cpp -o CMakeFiles/cChat2.dir/CCWindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/CCWindow.cpp -o CMakeFiles/cChat2.dir/CCWindow.cpp.s
 
 CMakeFiles/cChat2.dir/WindowFiller.cpp.o: CMakeFiles/cChat2.dir/flags.make
 CMakeFiles/cChat2.dir/WindowFiller.cpp.o: WindowFiller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cChat2.dir/WindowFiller.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cChat2.dir/WindowFiller.cpp.o -c /mnt/c/Users/osann/Documents/GitProjects/cChat2/WindowFiller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cChat2.dir/WindowFiller.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cChat2.dir/WindowFiller.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/WindowFiller.cpp
 
 CMakeFiles/cChat2.dir/WindowFiller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cChat2.dir/WindowFiller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/osann/Documents/GitProjects/cChat2/WindowFiller.cpp > CMakeFiles/cChat2.dir/WindowFiller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/WindowFiller.cpp > CMakeFiles/cChat2.dir/WindowFiller.cpp.i
 
 CMakeFiles/cChat2.dir/WindowFiller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cChat2.dir/WindowFiller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/osann/Documents/GitProjects/cChat2/WindowFiller.cpp -o CMakeFiles/cChat2.dir/WindowFiller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/WindowFiller.cpp -o CMakeFiles/cChat2.dir/WindowFiller.cpp.s
 
 CMakeFiles/cChat2.dir/fileParse.cpp.o: CMakeFiles/cChat2.dir/flags.make
 CMakeFiles/cChat2.dir/fileParse.cpp.o: fileParse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cChat2.dir/fileParse.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cChat2.dir/fileParse.cpp.o -c /mnt/c/Users/osann/Documents/GitProjects/cChat2/fileParse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cChat2.dir/fileParse.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cChat2.dir/fileParse.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/fileParse.cpp
 
 CMakeFiles/cChat2.dir/fileParse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cChat2.dir/fileParse.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/osann/Documents/GitProjects/cChat2/fileParse.cpp > CMakeFiles/cChat2.dir/fileParse.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/fileParse.cpp > CMakeFiles/cChat2.dir/fileParse.cpp.i
 
 CMakeFiles/cChat2.dir/fileParse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cChat2.dir/fileParse.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/osann/Documents/GitProjects/cChat2/fileParse.cpp -o CMakeFiles/cChat2.dir/fileParse.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/fileParse.cpp -o CMakeFiles/cChat2.dir/fileParse.cpp.s
 
 CMakeFiles/cChat2.dir/ChatRoom.cpp.o: CMakeFiles/cChat2.dir/flags.make
 CMakeFiles/cChat2.dir/ChatRoom.cpp.o: ChatRoom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cChat2.dir/ChatRoom.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cChat2.dir/ChatRoom.cpp.o -c /mnt/c/Users/osann/Documents/GitProjects/cChat2/ChatRoom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cChat2.dir/ChatRoom.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cChat2.dir/ChatRoom.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/ChatRoom.cpp
 
 CMakeFiles/cChat2.dir/ChatRoom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cChat2.dir/ChatRoom.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/osann/Documents/GitProjects/cChat2/ChatRoom.cpp > CMakeFiles/cChat2.dir/ChatRoom.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/ChatRoom.cpp > CMakeFiles/cChat2.dir/ChatRoom.cpp.i
 
 CMakeFiles/cChat2.dir/ChatRoom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cChat2.dir/ChatRoom.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/osann/Documents/GitProjects/cChat2/ChatRoom.cpp -o CMakeFiles/cChat2.dir/ChatRoom.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/ChatRoom.cpp -o CMakeFiles/cChat2.dir/ChatRoom.cpp.s
 
 CMakeFiles/cChat2.dir/connect.cpp.o: CMakeFiles/cChat2.dir/flags.make
 CMakeFiles/cChat2.dir/connect.cpp.o: connect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cChat2.dir/connect.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cChat2.dir/connect.cpp.o -c /mnt/c/Users/osann/Documents/GitProjects/cChat2/connect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cChat2.dir/connect.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cChat2.dir/connect.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/connect.cpp
 
 CMakeFiles/cChat2.dir/connect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cChat2.dir/connect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/osann/Documents/GitProjects/cChat2/connect.cpp > CMakeFiles/cChat2.dir/connect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/connect.cpp > CMakeFiles/cChat2.dir/connect.cpp.i
 
 CMakeFiles/cChat2.dir/connect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cChat2.dir/connect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/osann/Documents/GitProjects/cChat2/connect.cpp -o CMakeFiles/cChat2.dir/connect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/connect.cpp -o CMakeFiles/cChat2.dir/connect.cpp.s
 
 # Object files for target cChat2
 cChat2_OBJECTS = \
@@ -170,7 +170,7 @@ cChat2: CMakeFiles/cChat2.dir/ChatRoom.cpp.o
 cChat2: CMakeFiles/cChat2.dir/connect.cpp.o
 cChat2: CMakeFiles/cChat2.dir/build.make
 cChat2: CMakeFiles/cChat2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable cChat2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable cChat2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cChat2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +183,6 @@ CMakeFiles/cChat2.dir/clean:
 .PHONY : CMakeFiles/cChat2.dir/clean
 
 CMakeFiles/cChat2.dir/depend:
-	cd /mnt/c/Users/osann/Documents/GitProjects/cChat2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/osann/Documents/GitProjects/cChat2 /mnt/c/Users/osann/Documents/GitProjects/cChat2 /mnt/c/Users/osann/Documents/GitProjects/cChat2 /mnt/c/Users/osann/Documents/GitProjects/cChat2 /mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles/cChat2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/Oscar/Documents/GitProjects/N2End && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Oscar/Documents/GitProjects/N2End /mnt/c/Users/Oscar/Documents/GitProjects/N2End /mnt/c/Users/Oscar/Documents/GitProjects/N2End /mnt/c/Users/Oscar/Documents/GitProjects/N2End /mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/cChat2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cChat2.dir/depend
 

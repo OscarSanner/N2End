@@ -11,6 +11,7 @@ class ChatRoom {
 public:
     ChatRoom(CCWindow* win, char * contact);
     static void *pollIndefinitely(void *vargp);
+    void sendMessage(char * message);
 };
 
 

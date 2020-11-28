@@ -4,7 +4,6 @@
 
 #ifndef CCHAT2_CCWINDOW_H
 #define CCHAT2_CCWINDOW_H
-#include "WindowFiller.h"
 #include <curses.h>
 #include <string>
 
@@ -16,6 +15,7 @@ public:
     int createMenu(int n, char * choices[]);
     void printCenteredMessage(int offset, string string, int clear);
     char * askAQuestion(string question);
+    char * typeMessage();
 private:
     void clearWin();
 };

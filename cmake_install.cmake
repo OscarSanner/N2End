@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/osann/Documents/GitProjects/cChat2
+# Install script for directory: /mnt/c/Users/Oscar/Documents/GitProjects/N2End
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/osann/Documents/GitProjects/cChat2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

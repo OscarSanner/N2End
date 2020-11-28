@@ -8,7 +8,6 @@
 
 using namespace std;
 
-WindowFiller *filler;
 WINDOW *win;
 
 CCWindow::CCWindow(int height, int width, int startY, int startX) {
@@ -108,6 +107,16 @@ char *CCWindow::askAQuestion(string question) {
 void CCWindow::clearWin() {
     wclear(win);
     box(win, 0, 0);
+}
+
+char *CCWindow::typeMessage() {
+    clearWin();
+    wmove(win, 1, 1);
+    wprintw(win, "You: ");
+    static char * message = static_cast<char *>(malloc(sizeof(char *)));
+    wgetstr(win, message);
+
+    return message;
 }
 
 

@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/osann/Documents/GitProjects/cChat2/CCWindow.cpp" "/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles/cChat2.dir/CCWindow.cpp.o"
-  "/mnt/c/Users/osann/Documents/GitProjects/cChat2/ChatRoom.cpp" "/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles/cChat2.dir/ChatRoom.cpp.o"
-  "/mnt/c/Users/osann/Documents/GitProjects/cChat2/WindowFiller.cpp" "/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles/cChat2.dir/WindowFiller.cpp.o"
-  "/mnt/c/Users/osann/Documents/GitProjects/cChat2/connect.cpp" "/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles/cChat2.dir/connect.cpp.o"
-  "/mnt/c/Users/osann/Documents/GitProjects/cChat2/fileParse.cpp" "/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles/cChat2.dir/fileParse.cpp.o"
-  "/mnt/c/Users/osann/Documents/GitProjects/cChat2/initWindows.cpp" "/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles/cChat2.dir/initWindows.cpp.o"
-  "/mnt/c/Users/osann/Documents/GitProjects/cChat2/main.cpp" "/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles/cChat2.dir/main.cpp.o"
+  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CCWindow.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/cChat2.dir/CCWindow.cpp.o"
+  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/ChatRoom.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/cChat2.dir/ChatRoom.cpp.o"
+  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/WindowFiller.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/cChat2.dir/WindowFiller.cpp.o"
+  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/connect.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/cChat2.dir/connect.cpp.o"
+  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/fileParse.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/cChat2.dir/fileParse.cpp.o"
+  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/initWindows.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/cChat2.dir/initWindows.cpp.o"
+  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/main.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/cChat2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

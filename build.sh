@@ -2,4 +2,4 @@
 
 cmake ./;
 make;
-./cChat2;
+./N2End;

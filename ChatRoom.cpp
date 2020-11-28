@@ -30,5 +30,10 @@ void *ChatRoom::pollIndefinitely(void *vargp) {
     pollIndefinitely(vargp);
     return nullptr;
 }
+
+void ChatRoom::sendMessage(char *message) {
+
+}
+
 #pragma clang diagnostic pop
 

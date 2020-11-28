@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/osann/Documents/GitProjects/cChat2
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/Oscar/Documents/GitProjects/N2End
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/c/Users/osann/Documents/GitProjects/cChat2
+-- Build files have been written to: /mnt/c/Users/Oscar/Documents/GitProjects/N2End

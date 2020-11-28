@@ -94,12 +94,6 @@
 		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/ChatRoom.h">
 			<Option target="N2End"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/WindowFiller.cpp">
-			<Option target="N2End"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/WindowFiller.h">
-			<Option target="N2End"/>
-		</Unit>
 		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/connect.cpp">
 			<Option target="N2End"/>
 		</Unit>
