@@ -16,6 +16,7 @@ public:
     void printCenteredMessage(int offset, string string, int clear);
     char * askAQuestion(string question);
     char * typeMessage();
+    void printConversationMessage(char * contact, char * message);
 private:
     void clearWin();
 };

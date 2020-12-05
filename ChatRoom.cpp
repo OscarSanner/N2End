@@ -6,6 +6,7 @@
 #include <pthread.h>
 #include "connect.h"
 #include "CCWindow.h"
+#include "fileParse.h"
 
 CCWindow * window;
 char * con;
@@ -16,7 +17,7 @@ ChatRoom::ChatRoom(CCWindow *win, char *contact) {
     con = contact;
 
     pthread_t thread_id;
-    pthread_create(&thread_id, NULL, pollIndefinitely, NULL);
+    //pthread_create(&thread_id, NULL, pollIndefinitely, NULL);
 }
 
 #pragma clang diagnostic push
@@ -32,7 +33,10 @@ void *ChatRoom::pollIndefinitely(void *vargp) {
 }
 
 void ChatRoom::sendMessage(char *message) {
-
+    window.
+    //TODO: Send message to server
+    //TODO: Display message.
+    //TODO: Save message locally unencrypted?
 }
 
 #pragma clang diagnostic pop

@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CCWindow.cpp
-CCWindow.h
-/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CCWindow.h
-curses.h
--
-string
--
-
 /mnt/c/Users/Oscar/Documents/GitProjects/N2End/CCWindow.h
 curses.h
 -
@@ -29,6 +21,8 @@ connect.h
 /mnt/c/Users/Oscar/Documents/GitProjects/N2End/connect.h
 CCWindow.h
 /mnt/c/Users/Oscar/Documents/GitProjects/N2End/CCWindow.h
+fileParse.h
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/fileParse.h
 
 /mnt/c/Users/Oscar/Documents/GitProjects/N2End/ChatRoom.h
 curses.h

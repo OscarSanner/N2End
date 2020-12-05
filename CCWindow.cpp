@@ -5,10 +5,12 @@
 #include "CCWindow.h"
 #include <curses.h>
 #include <string>
+#include <list>
 
 using namespace std;
 
 WINDOW *win;
+list<int> l = new list<int>;
 
 CCWindow::CCWindow(int height, int width, int startY, int startX) {
     //WINDOW * win = newwin(height, width, starty, startx);
@@ -117,6 +119,10 @@ char *CCWindow::typeMessage() {
     wgetstr(win, message);
 
     return message;
+}
+
+void CCWindow::printConversationMessage(char *contact, char *message) {
+
 }
 
 

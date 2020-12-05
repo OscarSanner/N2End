@@ -100,6 +100,12 @@
 		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/connect.h">
 			<Option target="N2End"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/crypt.cpp">
+			<Option target="N2End"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/crypt.h">
+			<Option target="N2End"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/fileParse.cpp">
 			<Option target="N2End"/>
 		</Unit>

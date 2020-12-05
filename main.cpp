@@ -59,9 +59,10 @@ int main() {
         char * contactToChatWith = contacts[t];
         wMain->printCenteredMessage(0, contactToChatWith, 1);
 
-        //auto * chatRoom = new ChatRoom(wMain, contactToChatWith);
+        auto * chatRoom = new ChatRoom(wMain, contactToChatWith);
         while (true){
             char* message = wLower->typeMessage();
+            chatRoom->sendMessage(message);
             //chatRoom->sendMessage(message);
         }
 

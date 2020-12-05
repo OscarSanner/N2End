@@ -8,9 +8,13 @@ CMakeFiles/N2End.dir/ChatRoom.cpp.o: CCWindow.h
 CMakeFiles/N2End.dir/ChatRoom.cpp.o: ChatRoom.cpp
 CMakeFiles/N2End.dir/ChatRoom.cpp.o: ChatRoom.h
 CMakeFiles/N2End.dir/ChatRoom.cpp.o: connect.h
+CMakeFiles/N2End.dir/ChatRoom.cpp.o: fileParse.h
 
 CMakeFiles/N2End.dir/connect.cpp.o: connect.cpp
 CMakeFiles/N2End.dir/connect.cpp.o: connect.h
+
+CMakeFiles/N2End.dir/crypt.cpp.o: crypt.cpp
+CMakeFiles/N2End.dir/crypt.cpp.o: crypt.h
 
 CMakeFiles/N2End.dir/fileParse.cpp.o: fileParse.cpp
 
