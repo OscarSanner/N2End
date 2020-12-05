@@ -10,7 +10,6 @@
 using namespace std;
 
 WINDOW *win;
-list<int> l = new list<int>;
 
 CCWindow::CCWindow(int height, int width, int startY, int startX) {
     //WINDOW * win = newwin(height, width, starty, startx);
@@ -20,7 +19,7 @@ CCWindow::CCWindow(int height, int width, int startY, int startX) {
     wrefresh(win);
 }
 
-int CCWindow::createMenu(int size, char **choices) {
+int CCWindow::createMenu(int size, string* choices) {
     //TODO: Fix this whole mess somehow.
     clearWin();
     wrefresh(win);
@@ -43,7 +42,7 @@ int CCWindow::createMenu(int size, char **choices) {
             if (i == highlight) {
                 wattron(win, A_REVERSE);
             }
-            mvwprintw(win, (i % windowHeight)+ 1, 1, choices[i]);
+            mvwprintw(win, (i % windowHeight)+ 1, 1, choices[i].c_str());
             wattroff(win, A_REVERSE);
         }
         choice = wgetch(win);
@@ -91,7 +90,7 @@ void CCWindow::printCenteredMessage(int offset, string string, int clear) {
     wrefresh(win);
 }
 
-char *CCWindow::askAQuestion(string question) {
+string CCWindow::askAQuestion(string question) {
     clearWin();
 
     int height, width;
@@ -111,7 +110,7 @@ void CCWindow::clearWin() {
     box(win, 0, 0);
 }
 
-char *CCWindow::typeMessage() {
+string CCWindow::typeMessage() {
     clearWin();
     wmove(win, 1, 1);
     wprintw(win, "You: ");

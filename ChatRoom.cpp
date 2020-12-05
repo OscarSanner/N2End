@@ -9,10 +9,10 @@
 #include "fileParse.h"
 
 CCWindow * window;
-char * con;
+string con;
 
 
-ChatRoom::ChatRoom(CCWindow *win, char *contact) {
+ChatRoom::ChatRoom(CCWindow *win, string contact) {
     window = win;
     con = contact;
 
@@ -25,15 +25,14 @@ ChatRoom::ChatRoom(CCWindow *win, char *contact) {
 void *ChatRoom::pollIndefinitely(void *vargp) {
     int newData = 0;
     while (!newData){
-        char* args[] = {"a", "b", "c"};
+        string args[] = {"a", "b", "c"};
         newData = connectToServer(3, args);
     }
     pollIndefinitely(vargp);
     return nullptr;
 }
 
-void ChatRoom::sendMessage(char *message) {
-    window.
+void ChatRoom::sendMessage(string message) {
     //TODO: Send message to server
     //TODO: Display message.
     //TODO: Save message locally unencrypted?

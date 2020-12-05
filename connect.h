@@ -4,5 +4,5 @@
 
 #ifndef CCHAT2_CONNECT_H
 #define CCHAT2_CONNECT_H
-int connectToServer(int argc,char *argv[]);
+int connectToServer(int argc, std::string argv[]);
 #endif //CCHAT2_CONNECT_H

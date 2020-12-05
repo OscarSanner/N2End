@@ -12,10 +12,10 @@ class CCWindow {
 public:
     WINDOW * win;
     CCWindow(int height, int width, int startY, int startX);
-    int createMenu(int n, char * choices[]);
+    int createMenu(int n, string choices[]);
     void printCenteredMessage(int offset, string string, int clear);
-    char * askAQuestion(string question);
-    char * typeMessage();
+    string askAQuestion(string question);
+    string typeMessage();
     void printConversationMessage(char * contact, char * message);
 private:
     void clearWin();

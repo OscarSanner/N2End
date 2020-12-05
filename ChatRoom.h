@@ -9,9 +9,9 @@
 
 class ChatRoom {
 public:
-    ChatRoom(CCWindow* win, char * contact);
+    ChatRoom(CCWindow* win, string contact);
     static void *pollIndefinitely(void *vargp);
-    void sendMessage(char * message);
+    void sendMessage(string message);
 };
 
 

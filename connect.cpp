@@ -9,13 +9,14 @@
 #include <sys/socket.h> /* socket, connect */
 #include <netinet/in.h> /* struct sockaddr_in, struct sockaddr */
 #include <netdb.h> /* struct hostent, gethostbyname */
+#include <string>
 #include "connect.h"
 
 void error(const char *msg) { perror(msg); exit(0); }
 
-int connectToServer(int argc,char *argv[])
+int connectToServer(int argc, std::string argv[])
 {
-    printf("%s\n", argv[1]);
+    printf("%s\n", argv[1].c_str());
     /* first what are we going to send and where are we going to send it? */
     int portno =        80;
     char *host =        "localhost";
@@ -29,7 +30,7 @@ int connectToServer(int argc,char *argv[])
     if (argc < 3) { puts("Parameters: <apikey> <command>"); exit(0); }
 
     /* fill in the parameters */
-    sprintf(message,message_fmt,argv[1],argv[2]);
+    sprintf(message,message_fmt,argv[1].c_str(),argv[2].c_str());
     printf("Request:\n%s\n",message);
 
     /* create the socket */

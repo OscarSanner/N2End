@@ -10,17 +10,18 @@
 
 using namespace std;
 
-const char * loadContacts(int contact) {
+string loadContacts(int contact) {
     int i = 0;
     string line;
 
     ifstream credentials("contacts.txt");
     while (std::getline(credentials, line)) {
         if (i == contact){
-            return line.c_str();
+            return line;
         }
         i++;
     }
+    return nullptr;
 }
 
 volatile int getAmountOfContacts() {

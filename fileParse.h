@@ -7,7 +7,7 @@
 #include <array>
 
 
-const char * loadContacts(int contact);
+string loadContacts(int contact);
 int getAmountOfContacts();
 void saveContact(string str);
 bool isRegistered();
