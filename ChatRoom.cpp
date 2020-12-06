@@ -33,6 +33,7 @@ void *ChatRoom::pollIndefinitely(void *vargp) {
 }
 
 void ChatRoom::sendMessage(string message) {
+    window->printConversationMessage("You", message);
     //TODO: Send message to server
     //TODO: Display message.
     //TODO: Save message locally unencrypted?

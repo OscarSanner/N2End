@@ -10,6 +10,7 @@
 using namespace std;
 
 WINDOW *win;
+//list<std::string> messages;
 
 CCWindow::CCWindow(int height, int width, int startY, int startX) {
     //WINDOW * win = newwin(height, width, starty, startx);
@@ -120,8 +121,20 @@ string CCWindow::typeMessage() {
     return message;
 }
 
-void CCWindow::printConversationMessage(char *contact, char *message) {
-
+void CCWindow::printConversationMessage(string contact, const string& message) {
+    string fullMessage = contact.append(":\t").append(message);
+    messages.push_front(fullMessage);
+    printConversation();
 }
+
+void CCWindow::printConversation() {
+    clearWin();
+    for (const auto& m : messages){
+        wprintw(win, m.c_str());
+        wprintw(win, "\n");
+    }
+    wrefresh(win);
+}
+
 
 
