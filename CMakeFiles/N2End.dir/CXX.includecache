@@ -6,21 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CCWindow.cpp
-CCWindow.h
-/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CCWindow.h
-curses.h
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/fileParse.cpp
+iostream
+-
+fstream
 -
 string
 -
-list
--
-
-/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CCWindow.h
 curses.h
 -
-string
--
-list
+string.h
 -
 

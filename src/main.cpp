@@ -1,6 +1,5 @@
 #include <iostream>
 #include <curses.h>
-#include "initWindows.h"
 #include "CCWindow.h"
 #include "fileParse.h"
 #include <cstring>

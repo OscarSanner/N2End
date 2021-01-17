@@ -35,8 +35,9 @@ void *ChatRoom::pollIndefinitely(void *vargp) {
 void ChatRoom::sendMessage(string message) {
     window->printConversationMessage("You", message);
     //TODO: Send message to server
-    //TODO: Display message.
-    //TODO: Save message locally unencrypted?
+    // Display message in gray.
+    // When the server responds that it logged the message, make the message white.
+    // Save message locally unencrypted?
 }
 
 #pragma clang diagnostic pop

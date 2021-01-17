@@ -14,7 +14,7 @@ string loadContacts(int contact) {
     int i = 0;
     string line;
 
-    ifstream credentials("contacts.txt");
+    ifstream credentials("textFiles/contacts.txt");
     while (std::getline(credentials, line)) {
         if (i == contact){
             return line;
@@ -27,7 +27,7 @@ string loadContacts(int contact) {
 volatile int getAmountOfContacts() {
     int i = 0;
     string line;
-    ifstream credentials("contacts.txt");
+    ifstream credentials("./textFiles/contacts.txt");
     while (std::getline(credentials, line)) {
         i++;
         cout << line;
@@ -36,7 +36,7 @@ volatile int getAmountOfContacts() {
 }
 
 void saveContact(string str) {
-    ofstream file("contacts.txt", std::ios_base::app | std::ios_base::out);
+    ofstream file("./textFiles/contacts.txt", std::ios_base::app | std::ios_base::out);
     str.append("\n");
     file << str;
     file.close();
@@ -44,7 +44,7 @@ void saveContact(string str) {
 
 bool isRegistered() {
     string line;
-    ifstream credentials("credentials.txt");
+    ifstream credentials("./textFiles/credentials.txt");
     if (credentials.is_open()) {
         credentials.close();
         return true;
@@ -53,7 +53,7 @@ bool isRegistered() {
 }
 
 void registerAsNewUser(string name) {
-    std::ofstream outfile("credentials.txt");
+    std::ofstream outfile("./textFiles/credentials.txt");
     outfile << name << std::endl;
     outfile.close();
 }

@@ -123,194 +123,140 @@ N2End/fast:
 	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/build
 .PHONY : N2End/fast
 
-CCWindow.o: CCWindow.cpp.o
+src/CCWindow.o: src/CCWindow.cpp.o
 
-.PHONY : CCWindow.o
-
-# target to build an object file
-CCWindow.cpp.o:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/CCWindow.cpp.o
-.PHONY : CCWindow.cpp.o
-
-CCWindow.i: CCWindow.cpp.i
-
-.PHONY : CCWindow.i
-
-# target to preprocess a source file
-CCWindow.cpp.i:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/CCWindow.cpp.i
-.PHONY : CCWindow.cpp.i
-
-CCWindow.s: CCWindow.cpp.s
-
-.PHONY : CCWindow.s
-
-# target to generate assembly for a file
-CCWindow.cpp.s:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/CCWindow.cpp.s
-.PHONY : CCWindow.cpp.s
-
-ChatRoom.o: ChatRoom.cpp.o
-
-.PHONY : ChatRoom.o
+.PHONY : src/CCWindow.o
 
 # target to build an object file
-ChatRoom.cpp.o:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/ChatRoom.cpp.o
-.PHONY : ChatRoom.cpp.o
+src/CCWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/CCWindow.cpp.o
+.PHONY : src/CCWindow.cpp.o
 
-ChatRoom.i: ChatRoom.cpp.i
+src/CCWindow.i: src/CCWindow.cpp.i
 
-.PHONY : ChatRoom.i
+.PHONY : src/CCWindow.i
 
 # target to preprocess a source file
-ChatRoom.cpp.i:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/ChatRoom.cpp.i
-.PHONY : ChatRoom.cpp.i
+src/CCWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/CCWindow.cpp.i
+.PHONY : src/CCWindow.cpp.i
 
-ChatRoom.s: ChatRoom.cpp.s
+src/CCWindow.s: src/CCWindow.cpp.s
 
-.PHONY : ChatRoom.s
+.PHONY : src/CCWindow.s
 
 # target to generate assembly for a file
-ChatRoom.cpp.s:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/ChatRoom.cpp.s
-.PHONY : ChatRoom.cpp.s
+src/CCWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/CCWindow.cpp.s
+.PHONY : src/CCWindow.cpp.s
 
-connect.o: connect.cpp.o
+src/ChatRoom.o: src/ChatRoom.cpp.o
 
-.PHONY : connect.o
+.PHONY : src/ChatRoom.o
 
 # target to build an object file
-connect.cpp.o:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/connect.cpp.o
-.PHONY : connect.cpp.o
+src/ChatRoom.cpp.o:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/ChatRoom.cpp.o
+.PHONY : src/ChatRoom.cpp.o
 
-connect.i: connect.cpp.i
+src/ChatRoom.i: src/ChatRoom.cpp.i
 
-.PHONY : connect.i
+.PHONY : src/ChatRoom.i
 
 # target to preprocess a source file
-connect.cpp.i:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/connect.cpp.i
-.PHONY : connect.cpp.i
+src/ChatRoom.cpp.i:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/ChatRoom.cpp.i
+.PHONY : src/ChatRoom.cpp.i
 
-connect.s: connect.cpp.s
+src/ChatRoom.s: src/ChatRoom.cpp.s
 
-.PHONY : connect.s
+.PHONY : src/ChatRoom.s
 
 # target to generate assembly for a file
-connect.cpp.s:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/connect.cpp.s
-.PHONY : connect.cpp.s
+src/ChatRoom.cpp.s:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/ChatRoom.cpp.s
+.PHONY : src/ChatRoom.cpp.s
 
-crypt.o: crypt.cpp.o
+src/connect.o: src/connect.cpp.o
 
-.PHONY : crypt.o
+.PHONY : src/connect.o
 
 # target to build an object file
-crypt.cpp.o:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/crypt.cpp.o
-.PHONY : crypt.cpp.o
+src/connect.cpp.o:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/connect.cpp.o
+.PHONY : src/connect.cpp.o
 
-crypt.i: crypt.cpp.i
+src/connect.i: src/connect.cpp.i
 
-.PHONY : crypt.i
+.PHONY : src/connect.i
 
 # target to preprocess a source file
-crypt.cpp.i:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/crypt.cpp.i
-.PHONY : crypt.cpp.i
+src/connect.cpp.i:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/connect.cpp.i
+.PHONY : src/connect.cpp.i
 
-crypt.s: crypt.cpp.s
+src/connect.s: src/connect.cpp.s
 
-.PHONY : crypt.s
+.PHONY : src/connect.s
 
 # target to generate assembly for a file
-crypt.cpp.s:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/crypt.cpp.s
-.PHONY : crypt.cpp.s
+src/connect.cpp.s:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/connect.cpp.s
+.PHONY : src/connect.cpp.s
 
-fileParse.o: fileParse.cpp.o
+src/fileParse.o: src/fileParse.cpp.o
 
-.PHONY : fileParse.o
+.PHONY : src/fileParse.o
 
 # target to build an object file
-fileParse.cpp.o:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/fileParse.cpp.o
-.PHONY : fileParse.cpp.o
+src/fileParse.cpp.o:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/fileParse.cpp.o
+.PHONY : src/fileParse.cpp.o
 
-fileParse.i: fileParse.cpp.i
+src/fileParse.i: src/fileParse.cpp.i
 
-.PHONY : fileParse.i
+.PHONY : src/fileParse.i
 
 # target to preprocess a source file
-fileParse.cpp.i:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/fileParse.cpp.i
-.PHONY : fileParse.cpp.i
+src/fileParse.cpp.i:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/fileParse.cpp.i
+.PHONY : src/fileParse.cpp.i
 
-fileParse.s: fileParse.cpp.s
+src/fileParse.s: src/fileParse.cpp.s
 
-.PHONY : fileParse.s
+.PHONY : src/fileParse.s
 
 # target to generate assembly for a file
-fileParse.cpp.s:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/fileParse.cpp.s
-.PHONY : fileParse.cpp.s
+src/fileParse.cpp.s:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/fileParse.cpp.s
+.PHONY : src/fileParse.cpp.s
 
-initWindows.o: initWindows.cpp.o
+src/main.o: src/main.cpp.o
 
-.PHONY : initWindows.o
+.PHONY : src/main.o
 
 # target to build an object file
-initWindows.cpp.o:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/initWindows.cpp.o
-.PHONY : initWindows.cpp.o
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-initWindows.i: initWindows.cpp.i
+src/main.i: src/main.cpp.i
 
-.PHONY : initWindows.i
-
-# target to preprocess a source file
-initWindows.cpp.i:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/initWindows.cpp.i
-.PHONY : initWindows.cpp.i
-
-initWindows.s: initWindows.cpp.s
-
-.PHONY : initWindows.s
-
-# target to generate assembly for a file
-initWindows.cpp.s:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/initWindows.cpp.s
-.PHONY : initWindows.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
+src/main.s: src/main.cpp.s
 
-.PHONY : main.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -321,27 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... N2End"
-	@echo "... CCWindow.o"
-	@echo "... CCWindow.i"
-	@echo "... CCWindow.s"
-	@echo "... ChatRoom.o"
-	@echo "... ChatRoom.i"
-	@echo "... ChatRoom.s"
-	@echo "... connect.o"
-	@echo "... connect.i"
-	@echo "... connect.s"
-	@echo "... crypt.o"
-	@echo "... crypt.i"
-	@echo "... crypt.s"
-	@echo "... fileParse.o"
-	@echo "... fileParse.i"
-	@echo "... fileParse.s"
-	@echo "... initWindows.o"
-	@echo "... initWindows.i"
-	@echo "... initWindows.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/CCWindow.o"
+	@echo "... src/CCWindow.i"
+	@echo "... src/CCWindow.s"
+	@echo "... src/ChatRoom.o"
+	@echo "... src/ChatRoom.i"
+	@echo "... src/ChatRoom.s"
+	@echo "... src/connect.o"
+	@echo "... src/connect.i"
+	@echo "... src/connect.s"
+	@echo "... src/fileParse.o"
+	@echo "... src/fileParse.i"
+	@echo "... src/fileParse.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

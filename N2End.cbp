@@ -82,43 +82,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CCWindow.cpp">
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/CCWindow.cpp">
 			<Option target="N2End"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CCWindow.h">
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/CCWindow.h">
 			<Option target="N2End"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/ChatRoom.cpp">
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ChatRoom.cpp">
 			<Option target="N2End"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/ChatRoom.h">
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ChatRoom.h">
 			<Option target="N2End"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/connect.cpp">
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/connect.cpp">
 			<Option target="N2End"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/connect.h">
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/connect.h">
 			<Option target="N2End"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/crypt.cpp">
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/fileParse.cpp">
 			<Option target="N2End"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/crypt.h">
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/fileParse.h">
 			<Option target="N2End"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/fileParse.cpp">
-			<Option target="N2End"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/fileParse.h">
-			<Option target="N2End"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/initWindows.cpp">
-			<Option target="N2End"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/initWindows.h">
-			<Option target="N2End"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/main.cpp">
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/main.cpp">
 			<Option target="N2End"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeLists.txt">
