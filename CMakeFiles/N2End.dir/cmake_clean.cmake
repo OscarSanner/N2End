@@ -1,9 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/N2End.dir/src/CCWindow.cpp.o"
-  "CMakeFiles/N2End.dir/src/ChatRoom.cpp.o"
-  "CMakeFiles/N2End.dir/src/connect.cpp.o"
-  "CMakeFiles/N2End.dir/src/fileParse.cpp.o"
+  "CMakeFiles/N2End.dir/src/ControllerEngine.cpp.o"
+  "CMakeFiles/N2End.dir/src/View/TermWin.cpp.o"
   "CMakeFiles/N2End.dir/src/main.cpp.o"
+  "CMakeFiles/N2End.dir/src/model/Contact.cpp.o"
+  "CMakeFiles/N2End.dir/src/model/Message.cpp.o"
+  "CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.o"
+  "CMakeFiles/N2End.dir/src/model/fileParse.cpp.o"
   "N2End"
   "N2End.pdb"
 )

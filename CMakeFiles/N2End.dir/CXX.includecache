@@ -6,15 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/fileParse.cpp
-iostream
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Contact.h
+string
 -
-fstream
+vector
+-
+Message.h
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Message.h
+
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Message.h
+string
+-
+
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/ModelEngine.cpp
+ModelEngine.h
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/ModelEngine.h
+fileParse.h
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/fileParse.h
+
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/ModelEngine.h
+map
+-
+vector
 -
 string
 -
-curses.h
--
-string.h
+Message.h
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Message.h
+Contact.h
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Contact.h
+
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/fileParse.h
+array
 -
 

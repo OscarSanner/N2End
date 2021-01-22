@@ -123,113 +123,59 @@ N2End/fast:
 	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/build
 .PHONY : N2End/fast
 
-src/CCWindow.o: src/CCWindow.cpp.o
+src/ControllerEngine.o: src/ControllerEngine.cpp.o
 
-.PHONY : src/CCWindow.o
-
-# target to build an object file
-src/CCWindow.cpp.o:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/CCWindow.cpp.o
-.PHONY : src/CCWindow.cpp.o
-
-src/CCWindow.i: src/CCWindow.cpp.i
-
-.PHONY : src/CCWindow.i
-
-# target to preprocess a source file
-src/CCWindow.cpp.i:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/CCWindow.cpp.i
-.PHONY : src/CCWindow.cpp.i
-
-src/CCWindow.s: src/CCWindow.cpp.s
-
-.PHONY : src/CCWindow.s
-
-# target to generate assembly for a file
-src/CCWindow.cpp.s:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/CCWindow.cpp.s
-.PHONY : src/CCWindow.cpp.s
-
-src/ChatRoom.o: src/ChatRoom.cpp.o
-
-.PHONY : src/ChatRoom.o
+.PHONY : src/ControllerEngine.o
 
 # target to build an object file
-src/ChatRoom.cpp.o:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/ChatRoom.cpp.o
-.PHONY : src/ChatRoom.cpp.o
+src/ControllerEngine.cpp.o:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/ControllerEngine.cpp.o
+.PHONY : src/ControllerEngine.cpp.o
 
-src/ChatRoom.i: src/ChatRoom.cpp.i
+src/ControllerEngine.i: src/ControllerEngine.cpp.i
 
-.PHONY : src/ChatRoom.i
+.PHONY : src/ControllerEngine.i
 
 # target to preprocess a source file
-src/ChatRoom.cpp.i:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/ChatRoom.cpp.i
-.PHONY : src/ChatRoom.cpp.i
+src/ControllerEngine.cpp.i:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/ControllerEngine.cpp.i
+.PHONY : src/ControllerEngine.cpp.i
 
-src/ChatRoom.s: src/ChatRoom.cpp.s
+src/ControllerEngine.s: src/ControllerEngine.cpp.s
 
-.PHONY : src/ChatRoom.s
+.PHONY : src/ControllerEngine.s
 
 # target to generate assembly for a file
-src/ChatRoom.cpp.s:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/ChatRoom.cpp.s
-.PHONY : src/ChatRoom.cpp.s
+src/ControllerEngine.cpp.s:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/ControllerEngine.cpp.s
+.PHONY : src/ControllerEngine.cpp.s
 
-src/connect.o: src/connect.cpp.o
+src/View/TermWin.o: src/View/TermWin.cpp.o
 
-.PHONY : src/connect.o
+.PHONY : src/View/TermWin.o
 
 # target to build an object file
-src/connect.cpp.o:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/connect.cpp.o
-.PHONY : src/connect.cpp.o
+src/View/TermWin.cpp.o:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/View/TermWin.cpp.o
+.PHONY : src/View/TermWin.cpp.o
 
-src/connect.i: src/connect.cpp.i
+src/View/TermWin.i: src/View/TermWin.cpp.i
 
-.PHONY : src/connect.i
-
-# target to preprocess a source file
-src/connect.cpp.i:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/connect.cpp.i
-.PHONY : src/connect.cpp.i
-
-src/connect.s: src/connect.cpp.s
-
-.PHONY : src/connect.s
-
-# target to generate assembly for a file
-src/connect.cpp.s:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/connect.cpp.s
-.PHONY : src/connect.cpp.s
-
-src/fileParse.o: src/fileParse.cpp.o
-
-.PHONY : src/fileParse.o
-
-# target to build an object file
-src/fileParse.cpp.o:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/fileParse.cpp.o
-.PHONY : src/fileParse.cpp.o
-
-src/fileParse.i: src/fileParse.cpp.i
-
-.PHONY : src/fileParse.i
+.PHONY : src/View/TermWin.i
 
 # target to preprocess a source file
-src/fileParse.cpp.i:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/fileParse.cpp.i
-.PHONY : src/fileParse.cpp.i
+src/View/TermWin.cpp.i:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/View/TermWin.cpp.i
+.PHONY : src/View/TermWin.cpp.i
 
-src/fileParse.s: src/fileParse.cpp.s
+src/View/TermWin.s: src/View/TermWin.cpp.s
 
-.PHONY : src/fileParse.s
+.PHONY : src/View/TermWin.s
 
 # target to generate assembly for a file
-src/fileParse.cpp.s:
-	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/fileParse.cpp.s
-.PHONY : src/fileParse.cpp.s
+src/View/TermWin.cpp.s:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/View/TermWin.cpp.s
+.PHONY : src/View/TermWin.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -258,6 +204,114 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/model/Contact.o: src/model/Contact.cpp.o
+
+.PHONY : src/model/Contact.o
+
+# target to build an object file
+src/model/Contact.cpp.o:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/model/Contact.cpp.o
+.PHONY : src/model/Contact.cpp.o
+
+src/model/Contact.i: src/model/Contact.cpp.i
+
+.PHONY : src/model/Contact.i
+
+# target to preprocess a source file
+src/model/Contact.cpp.i:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/model/Contact.cpp.i
+.PHONY : src/model/Contact.cpp.i
+
+src/model/Contact.s: src/model/Contact.cpp.s
+
+.PHONY : src/model/Contact.s
+
+# target to generate assembly for a file
+src/model/Contact.cpp.s:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/model/Contact.cpp.s
+.PHONY : src/model/Contact.cpp.s
+
+src/model/Message.o: src/model/Message.cpp.o
+
+.PHONY : src/model/Message.o
+
+# target to build an object file
+src/model/Message.cpp.o:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/model/Message.cpp.o
+.PHONY : src/model/Message.cpp.o
+
+src/model/Message.i: src/model/Message.cpp.i
+
+.PHONY : src/model/Message.i
+
+# target to preprocess a source file
+src/model/Message.cpp.i:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/model/Message.cpp.i
+.PHONY : src/model/Message.cpp.i
+
+src/model/Message.s: src/model/Message.cpp.s
+
+.PHONY : src/model/Message.s
+
+# target to generate assembly for a file
+src/model/Message.cpp.s:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/model/Message.cpp.s
+.PHONY : src/model/Message.cpp.s
+
+src/model/ModelEngine.o: src/model/ModelEngine.cpp.o
+
+.PHONY : src/model/ModelEngine.o
+
+# target to build an object file
+src/model/ModelEngine.cpp.o:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.o
+.PHONY : src/model/ModelEngine.cpp.o
+
+src/model/ModelEngine.i: src/model/ModelEngine.cpp.i
+
+.PHONY : src/model/ModelEngine.i
+
+# target to preprocess a source file
+src/model/ModelEngine.cpp.i:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.i
+.PHONY : src/model/ModelEngine.cpp.i
+
+src/model/ModelEngine.s: src/model/ModelEngine.cpp.s
+
+.PHONY : src/model/ModelEngine.s
+
+# target to generate assembly for a file
+src/model/ModelEngine.cpp.s:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.s
+.PHONY : src/model/ModelEngine.cpp.s
+
+src/model/fileParse.o: src/model/fileParse.cpp.o
+
+.PHONY : src/model/fileParse.o
+
+# target to build an object file
+src/model/fileParse.cpp.o:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/model/fileParse.cpp.o
+.PHONY : src/model/fileParse.cpp.o
+
+src/model/fileParse.i: src/model/fileParse.cpp.i
+
+.PHONY : src/model/fileParse.i
+
+# target to preprocess a source file
+src/model/fileParse.cpp.i:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/model/fileParse.cpp.i
+.PHONY : src/model/fileParse.cpp.i
+
+src/model/fileParse.s: src/model/fileParse.cpp.s
+
+.PHONY : src/model/fileParse.s
+
+# target to generate assembly for a file
+src/model/fileParse.cpp.s:
+	$(MAKE) -f CMakeFiles/N2End.dir/build.make CMakeFiles/N2End.dir/src/model/fileParse.cpp.s
+.PHONY : src/model/fileParse.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -267,21 +321,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... N2End"
-	@echo "... src/CCWindow.o"
-	@echo "... src/CCWindow.i"
-	@echo "... src/CCWindow.s"
-	@echo "... src/ChatRoom.o"
-	@echo "... src/ChatRoom.i"
-	@echo "... src/ChatRoom.s"
-	@echo "... src/connect.o"
-	@echo "... src/connect.i"
-	@echo "... src/connect.s"
-	@echo "... src/fileParse.o"
-	@echo "... src/fileParse.i"
-	@echo "... src/fileParse.s"
+	@echo "... src/ControllerEngine.o"
+	@echo "... src/ControllerEngine.i"
+	@echo "... src/ControllerEngine.s"
+	@echo "... src/View/TermWin.o"
+	@echo "... src/View/TermWin.i"
+	@echo "... src/View/TermWin.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/model/Contact.o"
+	@echo "... src/model/Contact.i"
+	@echo "... src/model/Contact.s"
+	@echo "... src/model/Message.o"
+	@echo "... src/model/Message.i"
+	@echo "... src/model/Message.s"
+	@echo "... src/model/ModelEngine.o"
+	@echo "... src/model/ModelEngine.i"
+	@echo "... src/model/ModelEngine.s"
+	@echo "... src/model/fileParse.o"
+	@echo "... src/model/fileParse.i"
+	@echo "... src/model/fileParse.s"
 .PHONY : help
 
 

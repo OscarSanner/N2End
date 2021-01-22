@@ -70,77 +70,107 @@ CMakeFiles/N2End.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/N2End.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/main.cpp -o CMakeFiles/N2End.dir/src/main.cpp.s
 
-CMakeFiles/N2End.dir/src/CCWindow.cpp.o: CMakeFiles/N2End.dir/flags.make
-CMakeFiles/N2End.dir/src/CCWindow.cpp.o: src/CCWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/N2End.dir/src/CCWindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/N2End.dir/src/CCWindow.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/CCWindow.cpp
+CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.o: CMakeFiles/N2End.dir/flags.make
+CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.o: src/model/ModelEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/ModelEngine.cpp
 
-CMakeFiles/N2End.dir/src/CCWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/N2End.dir/src/CCWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/CCWindow.cpp > CMakeFiles/N2End.dir/src/CCWindow.cpp.i
+CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/ModelEngine.cpp > CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.i
 
-CMakeFiles/N2End.dir/src/CCWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/N2End.dir/src/CCWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/CCWindow.cpp -o CMakeFiles/N2End.dir/src/CCWindow.cpp.s
+CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/ModelEngine.cpp -o CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.s
 
-CMakeFiles/N2End.dir/src/fileParse.cpp.o: CMakeFiles/N2End.dir/flags.make
-CMakeFiles/N2End.dir/src/fileParse.cpp.o: src/fileParse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/N2End.dir/src/fileParse.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/N2End.dir/src/fileParse.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/fileParse.cpp
+CMakeFiles/N2End.dir/src/model/Message.cpp.o: CMakeFiles/N2End.dir/flags.make
+CMakeFiles/N2End.dir/src/model/Message.cpp.o: src/model/Message.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/N2End.dir/src/model/Message.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/N2End.dir/src/model/Message.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Message.cpp
 
-CMakeFiles/N2End.dir/src/fileParse.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/N2End.dir/src/fileParse.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/fileParse.cpp > CMakeFiles/N2End.dir/src/fileParse.cpp.i
+CMakeFiles/N2End.dir/src/model/Message.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/N2End.dir/src/model/Message.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Message.cpp > CMakeFiles/N2End.dir/src/model/Message.cpp.i
 
-CMakeFiles/N2End.dir/src/fileParse.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/N2End.dir/src/fileParse.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/fileParse.cpp -o CMakeFiles/N2End.dir/src/fileParse.cpp.s
+CMakeFiles/N2End.dir/src/model/Message.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/N2End.dir/src/model/Message.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Message.cpp -o CMakeFiles/N2End.dir/src/model/Message.cpp.s
 
-CMakeFiles/N2End.dir/src/ChatRoom.cpp.o: CMakeFiles/N2End.dir/flags.make
-CMakeFiles/N2End.dir/src/ChatRoom.cpp.o: src/ChatRoom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/N2End.dir/src/ChatRoom.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/N2End.dir/src/ChatRoom.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ChatRoom.cpp
+CMakeFiles/N2End.dir/src/model/Contact.cpp.o: CMakeFiles/N2End.dir/flags.make
+CMakeFiles/N2End.dir/src/model/Contact.cpp.o: src/model/Contact.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/N2End.dir/src/model/Contact.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/N2End.dir/src/model/Contact.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Contact.cpp
 
-CMakeFiles/N2End.dir/src/ChatRoom.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/N2End.dir/src/ChatRoom.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ChatRoom.cpp > CMakeFiles/N2End.dir/src/ChatRoom.cpp.i
+CMakeFiles/N2End.dir/src/model/Contact.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/N2End.dir/src/model/Contact.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Contact.cpp > CMakeFiles/N2End.dir/src/model/Contact.cpp.i
 
-CMakeFiles/N2End.dir/src/ChatRoom.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/N2End.dir/src/ChatRoom.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ChatRoom.cpp -o CMakeFiles/N2End.dir/src/ChatRoom.cpp.s
+CMakeFiles/N2End.dir/src/model/Contact.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/N2End.dir/src/model/Contact.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Contact.cpp -o CMakeFiles/N2End.dir/src/model/Contact.cpp.s
 
-CMakeFiles/N2End.dir/src/connect.cpp.o: CMakeFiles/N2End.dir/flags.make
-CMakeFiles/N2End.dir/src/connect.cpp.o: src/connect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/N2End.dir/src/connect.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/N2End.dir/src/connect.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/connect.cpp
+CMakeFiles/N2End.dir/src/model/fileParse.cpp.o: CMakeFiles/N2End.dir/flags.make
+CMakeFiles/N2End.dir/src/model/fileParse.cpp.o: src/model/fileParse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/N2End.dir/src/model/fileParse.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/N2End.dir/src/model/fileParse.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/fileParse.cpp
 
-CMakeFiles/N2End.dir/src/connect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/N2End.dir/src/connect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/connect.cpp > CMakeFiles/N2End.dir/src/connect.cpp.i
+CMakeFiles/N2End.dir/src/model/fileParse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/N2End.dir/src/model/fileParse.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/fileParse.cpp > CMakeFiles/N2End.dir/src/model/fileParse.cpp.i
 
-CMakeFiles/N2End.dir/src/connect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/N2End.dir/src/connect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/connect.cpp -o CMakeFiles/N2End.dir/src/connect.cpp.s
+CMakeFiles/N2End.dir/src/model/fileParse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/N2End.dir/src/model/fileParse.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/fileParse.cpp -o CMakeFiles/N2End.dir/src/model/fileParse.cpp.s
+
+CMakeFiles/N2End.dir/src/View/TermWin.cpp.o: CMakeFiles/N2End.dir/flags.make
+CMakeFiles/N2End.dir/src/View/TermWin.cpp.o: src/View/TermWin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/N2End.dir/src/View/TermWin.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/N2End.dir/src/View/TermWin.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/View/TermWin.cpp
+
+CMakeFiles/N2End.dir/src/View/TermWin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/N2End.dir/src/View/TermWin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/View/TermWin.cpp > CMakeFiles/N2End.dir/src/View/TermWin.cpp.i
+
+CMakeFiles/N2End.dir/src/View/TermWin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/N2End.dir/src/View/TermWin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/View/TermWin.cpp -o CMakeFiles/N2End.dir/src/View/TermWin.cpp.s
+
+CMakeFiles/N2End.dir/src/ControllerEngine.cpp.o: CMakeFiles/N2End.dir/flags.make
+CMakeFiles/N2End.dir/src/ControllerEngine.cpp.o: src/ControllerEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/N2End.dir/src/ControllerEngine.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/N2End.dir/src/ControllerEngine.cpp.o -c /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ControllerEngine.cpp
+
+CMakeFiles/N2End.dir/src/ControllerEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/N2End.dir/src/ControllerEngine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ControllerEngine.cpp > CMakeFiles/N2End.dir/src/ControllerEngine.cpp.i
+
+CMakeFiles/N2End.dir/src/ControllerEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/N2End.dir/src/ControllerEngine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ControllerEngine.cpp -o CMakeFiles/N2End.dir/src/ControllerEngine.cpp.s
 
 # Object files for target N2End
 N2End_OBJECTS = \
 "CMakeFiles/N2End.dir/src/main.cpp.o" \
-"CMakeFiles/N2End.dir/src/CCWindow.cpp.o" \
-"CMakeFiles/N2End.dir/src/fileParse.cpp.o" \
-"CMakeFiles/N2End.dir/src/ChatRoom.cpp.o" \
-"CMakeFiles/N2End.dir/src/connect.cpp.o"
+"CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.o" \
+"CMakeFiles/N2End.dir/src/model/Message.cpp.o" \
+"CMakeFiles/N2End.dir/src/model/Contact.cpp.o" \
+"CMakeFiles/N2End.dir/src/model/fileParse.cpp.o" \
+"CMakeFiles/N2End.dir/src/View/TermWin.cpp.o" \
+"CMakeFiles/N2End.dir/src/ControllerEngine.cpp.o"
 
 # External object files for target N2End
 N2End_EXTERNAL_OBJECTS =
 
 N2End: CMakeFiles/N2End.dir/src/main.cpp.o
-N2End: CMakeFiles/N2End.dir/src/CCWindow.cpp.o
-N2End: CMakeFiles/N2End.dir/src/fileParse.cpp.o
-N2End: CMakeFiles/N2End.dir/src/ChatRoom.cpp.o
-N2End: CMakeFiles/N2End.dir/src/connect.cpp.o
+N2End: CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.o
+N2End: CMakeFiles/N2End.dir/src/model/Message.cpp.o
+N2End: CMakeFiles/N2End.dir/src/model/Contact.cpp.o
+N2End: CMakeFiles/N2End.dir/src/model/fileParse.cpp.o
+N2End: CMakeFiles/N2End.dir/src/View/TermWin.cpp.o
+N2End: CMakeFiles/N2End.dir/src/ControllerEngine.cpp.o
 N2End: CMakeFiles/N2End.dir/build.make
 N2End: CMakeFiles/N2End.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable N2End"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable N2End"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/N2End.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

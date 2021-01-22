@@ -4,11 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/CCWindow.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/N2End.dir/src/CCWindow.cpp.o"
-  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ChatRoom.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/N2End.dir/src/ChatRoom.cpp.o"
-  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/connect.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/N2End.dir/src/connect.cpp.o"
-  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/fileParse.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/N2End.dir/src/fileParse.cpp.o"
+  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ControllerEngine.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/N2End.dir/src/ControllerEngine.cpp.o"
+  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/View/TermWin.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/N2End.dir/src/View/TermWin.cpp.o"
   "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/main.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/N2End.dir/src/main.cpp.o"
+  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Contact.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/N2End.dir/src/model/Contact.cpp.o"
+  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Message.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/N2End.dir/src/model/Message.cpp.o"
+  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/ModelEngine.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/N2End.dir/src/model/ModelEngine.cpp.o"
+  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/fileParse.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/N2End.dir/src/model/fileParse.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

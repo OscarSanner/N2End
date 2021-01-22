@@ -82,31 +82,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/CCWindow.cpp">
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ControllerEngine.cpp">
 			<Option target="N2End"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/CCWindow.h">
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ControllerEngine.h">
 			<Option target="N2End"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ChatRoom.cpp">
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/View/TermWin.cpp">
 			<Option target="N2End"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ChatRoom.h">
-			<Option target="N2End"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/connect.cpp">
-			<Option target="N2End"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/connect.h">
-			<Option target="N2End"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/fileParse.cpp">
-			<Option target="N2End"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/fileParse.h">
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/View/TermWin.h">
 			<Option target="N2End"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/main.cpp">
+			<Option target="N2End"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Contact.cpp">
+			<Option target="N2End"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Contact.h">
+			<Option target="N2End"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Message.cpp">
+			<Option target="N2End"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Message.h">
+			<Option target="N2End"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/ModelEngine.cpp">
+			<Option target="N2End"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/ModelEngine.h">
+			<Option target="N2End"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/fileParse.cpp">
+			<Option target="N2End"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/fileParse.h">
 			<Option target="N2End"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeLists.txt">
