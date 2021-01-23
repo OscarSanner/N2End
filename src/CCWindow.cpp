@@ -13,7 +13,6 @@ WINDOW *win;
 //list<std::string> messages;
 
 CCWindow::CCWindow(int height, int width, int startY, int startX) {
-    //WINDOW * win = newwin(height, width, starty, startx);
     win = newwin(height, width, startY, startX);
     refresh();
     box(win, 0, 0);

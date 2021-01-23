@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/CCWindow.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/N2End.dir/src/CCWindow.cpp.o"
-  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ChatRoom.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/N2End.dir/src/ChatRoom.cpp.o"
-  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/connect.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/N2End.dir/src/connect.cpp.o"
-  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/fileParse.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/N2End.dir/src/fileParse.cpp.o"
-  "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/main.cpp" "/mnt/c/Users/Oscar/Documents/GitProjects/N2End/CMakeFiles/N2End.dir/src/main.cpp.o"
+  "/mnt/c/Users/osann/Documents/GitProjects/cChat2/src/CCWindow.cpp" "/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles/N2End.dir/src/CCWindow.cpp.o"
+  "/mnt/c/Users/osann/Documents/GitProjects/cChat2/src/ChatRoom.cpp" "/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles/N2End.dir/src/ChatRoom.cpp.o"
+  "/mnt/c/Users/osann/Documents/GitProjects/cChat2/src/connect.cpp" "/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles/N2End.dir/src/connect.cpp.o"
+  "/mnt/c/Users/osann/Documents/GitProjects/cChat2/src/fileParse.cpp" "/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles/N2End.dir/src/fileParse.cpp.o"
+  "/mnt/c/Users/osann/Documents/GitProjects/cChat2/src/main.cpp" "/mnt/c/Users/osann/Documents/GitProjects/cChat2/CMakeFiles/N2End.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
