@@ -6,6 +6,28 @@
 
 #IncludeRegexTransform: 
 
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ControllerEngine.h
+View/TermWin.h
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/View/TermWin.h
+model/ModelEngine.h
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/ModelEngine.h
+
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/View/TermWin.h
+curses.h
+-
+string
+-
+
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/main.cpp
+iostream
+-
+curses.h
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/curses.h
+ControllerEngine.h
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/ControllerEngine.h
+View/TermWin.h
+/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/View/TermWin.h
+
 /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Contact.h
 string
 -
@@ -17,12 +39,6 @@ Message.h
 /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Message.h
 string
 -
-
-/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/ModelEngine.cpp
-ModelEngine.h
-/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/ModelEngine.h
-fileParse.h
-/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/fileParse.h
 
 /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/ModelEngine.h
 map
@@ -35,8 +51,4 @@ Message.h
 /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Message.h
 Contact.h
 /mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/Contact.h
-
-/mnt/c/Users/Oscar/Documents/GitProjects/N2End/src/model/fileParse.h
-array
--
 

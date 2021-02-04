@@ -13,7 +13,6 @@ CMakeFiles/N2End.dir/src/View/TermWin.cpp.o: src/View/TermWin.h
 
 CMakeFiles/N2End.dir/src/main.cpp.o: src/ControllerEngine.h
 CMakeFiles/N2End.dir/src/main.cpp.o: src/View/TermWin.h
-CMakeFiles/N2End.dir/src/main.cpp.o: src/View/termWin.h
 CMakeFiles/N2End.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/N2End.dir/src/main.cpp.o: src/model/Contact.h
 CMakeFiles/N2End.dir/src/main.cpp.o: src/model/Message.h
