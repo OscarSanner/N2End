@@ -15,4 +15,8 @@ The interface will consist of two windows. The lower window will be used for sel
 
 From an object oriented stance the application will follow something similar to an MVC pattern, however due to the nature of ncurses, I will not force the view and controller to have strictly sparated responsibilities.
 
-![Screenshot2](pictures/"blank-diagram.png")
+![Screenshot2](pictures/blank-diagram.png)
+
+To check for messages, the client will always have a connection open to the server. The server will let this connection time out, or it will reply with the new message should one exist. This mean that the client wont constatly poll the server for data, it will simply reopen a connection to the server when it times out. This will be done on a separate page. 
+
+In terms of encryption, a very simple diffie hellman key exchange will occur once two parties accepts each other. I would like to expand this once I learn more. Each message will be encrypted using the shared key.
